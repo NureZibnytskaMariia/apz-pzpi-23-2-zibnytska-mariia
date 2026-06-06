@@ -1,0 +1,18 @@
+:root {
+  --primary: #709B16;
+  --dark: #4E6E0E;
+  --pale: #EEF5D8;
+  --bg: #FEFDEB;
+  --text: #2C3A1A;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.black-text {
+  color: #000000;
+}
