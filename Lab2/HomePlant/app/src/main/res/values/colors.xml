@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="plant_primary">#709B16</color>
+    <color name="plant_dark">#4E6E0E</color>
+    <color name="plant_light">#D4E8A2</color>
+    <color name="plant_pale">#EEF5D8</color>
+    <color name="plant_bg">#FEFDEB</color>
+    <color name="plant_text">#2C3A1A</color>
+    <color name="plant_gold">#B8860B</color>
+    <color name="plant_warn">#E67E22</color>
+    <color name="plant_critical">#E05C3B</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_hint">#A0A0A0</color>
+</resources>

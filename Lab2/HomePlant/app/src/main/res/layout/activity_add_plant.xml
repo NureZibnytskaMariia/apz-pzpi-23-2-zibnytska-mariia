@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вид рослини:"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerPlantType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etCustomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Назва рослини" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Вид рослини:" />
+
+        <EditText android:id="@+id/etLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Локація" />
+
+        <Button android:id="@+id/btnPickWaterDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Обрати дату останнього поливу" />
+        <Button android:id="@+id/btnPickFertilizeDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Обрати дату останнього підживлення" />
+
+        <Button android:id="@+id/btnSavePlant" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Зберегти" />
+    </LinearLayout>
+</ScrollView>
